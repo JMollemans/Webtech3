@@ -1,0 +1,2 @@
+SOAP vs REST:
+SOAP is een protocol en REST is een architectuurstijl. 
