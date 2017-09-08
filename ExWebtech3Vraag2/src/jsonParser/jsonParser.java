@@ -7,11 +7,12 @@ import org.json.*;
 
 public class jsonParser {
 
-	private String INPUT_FILE = "producten.json";
+	private String INPUT_FILE = "medicijnen.json";
 	
 	public String getProducten() {
 		
-		String jsonData = readFile("C:\\Users\\Jasper\\eclipse-workspace\\Examen Webtech 3 - oef 2 JSON\\producten.json");
+		String jsonData = readFile("C:\\Users\J.Mollemans\Desktop\Webtech-3-oef-2-master\medicijnen.json");
+		
 	    JSONObject jobj = new JSONObject(jsonData);
 	    System.out.println("");
 	    //JSONArray jarr = new JSONArray(jobj.getJSONArray("keywords").toString());
